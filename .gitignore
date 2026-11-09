@@ -1,0 +1,20 @@
+# Dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# The characters, personas and conversations on this machine
+data/
+
+# Logs, archives, secrets, local overrides
+*.log
+*.tgz
+.env*
+dev.env
+*.local
+
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
